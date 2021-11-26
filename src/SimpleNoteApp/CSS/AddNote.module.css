@@ -1,0 +1,44 @@
+.addNote {
+    background-color: #1a6cc9;
+    border-radius: 10px;
+    padding: 1em;
+    min-height: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    white-space: pre-wrap;
+    overflow: auto;
+}
+
+textarea {
+    background-color:#1a6cc9;
+    color: black;
+    border: none;
+    resize: none;
+    outline: none;
+}
+
+textarea::placeholder {
+    color: white;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.small {
+    color: white;
+}
+
+.button {
+    border: none;
+    border-radius: 14px;
+    padding:4px 6px 4px 4px;
+}
+
+.button:hover {
+    background-color:lightblue;
+    cursor: pointer;
+}

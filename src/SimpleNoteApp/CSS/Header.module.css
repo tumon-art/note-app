@@ -1,0 +1,20 @@
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.button {
+    background-color:rgb(219, 219, 219); 
+    border-radius: 31px;
+    height: 32px;
+    border: none;
+    padding: 2px 9px 2px 9px;
+    transition: 0.3s;
+}
+
+.button:hover {
+    cursor: pointer;
+    opacity: 75%;
+}
